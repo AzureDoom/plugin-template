@@ -5,16 +5,23 @@
     "Description": "Description of your plugin",
     "Authors": [
         {
-            "Name": "Your Name",
+            "Name": "Your_Name",
             "Email": "your.email@example.com",
             "Url": "https://your-website.com"
         }
     ],
     "Website": "https://your-plugin-website.com",
     "DisabledByDefault": false,
-    "IncludesAssetPack": false,
-    "Dependencies": {},
-    "OptionalDependencies": {},
-    "ServerVersion": "*",
-    "Main": "dev.hytalemodding.ExamplePlugin"
+    "IncludesAssetPack": true,
+    "Dependencies": {
+        "Hytale:AssetModule": "*"
+    },
+    "OptionalDependencies": {
+        
+    },
+    "ServerVersion": ">=0.5.3 <0.6.0",
+    "Main": "dev.hytalemodding.ExamplePlugin",
+    "UpdateChecker": {
+        "CurseForge": ""
+    }
 }
